@@ -29,6 +29,11 @@ The format is as follows:
 [<yabrowser-major>, <yabrowser-minor>, <chrome-major>, <chrome-minor>]
 ```
 
+## Supported browsers
+
+* Yandex Browser (or YaBrowser), a [popular browser](http://gs.statcounter.com/browser-market-share/all/russian-federation) in russian-speaking countries
+* Cốc Cốc Browser, a [popular browser](http://gs.statcounter.com/browser-market-share/all/viet-nam) in Vietnam
+
 ## Notes
 
 If you know more about any of these browsers or have a better way to achieve this,
