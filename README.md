@@ -34,12 +34,14 @@ The format is as follows:
 * Yandex Browser (or YaBrowser), a [popular browser](http://gs.statcounter.com/browser-market-share/all/russian-federation) in russian-speaking countries
 * Cốc Cốc Browser, a [popular browser](http://gs.statcounter.com/browser-market-share/all/viet-nam) in Vietnam
 
-## Notes
+## Contributors
 
 If you know more about any of these browsers or have a better way to achieve this,
 please let us know by opening an issue or contacting the email in my [GitHub profile](https://github.com/dmfrancisco).
 
-## Contributors
+If you have data for another Chromium-based browser, please open a pull request.
+
+## Credits
 
 The data for YaBrowser was initially extracted from [Browserslist-GA](https://github.com/dmfrancisco/browserslist-ga)
 and is based on this [pull request](https://github.com/dmfrancisco/browserslist-ga/pull/2)
