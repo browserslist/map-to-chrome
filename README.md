@@ -22,11 +22,11 @@ Mozilla/5.0 (<platform>) AppleWebKit/<webkit-rev> (KHTML, like Gecko) Chrome/<ch
 ```
 
 Platform can be Windows, Linux, macOS or Android (on iOS is different since all browsers use Safari's WebKit as the underlying engine).
-This repository contains a file named `yabrowser.json` that maps YaBrowser major and minor versions to the equivalent Chrome major version.
+This repository contains a file named `yabrowser.json` that maps YaBrowser major and minor versions to the equivalent Chrome versions.
 The format is as follows:
 
 ```
-[<yabrowser-major>, <yabrowser-minor>, <chrome-major>]
+[<yabrowser-major>, <yabrowser-minor>, <chrome-major>, <chrome-minor>]
 ```
 
 ## Notes
