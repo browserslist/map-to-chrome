@@ -32,7 +32,8 @@ The format is as follows:
 ## Supported browsers
 
 * Yandex Browser (or YaBrowser), a [popular browser](http://gs.statcounter.com/browser-market-share/all/russian-federation) in russian-speaking countries
-* Cốc Cốc Browser, a [popular browser](http://gs.statcounter.com/browser-market-share/all/viet-nam) in Vietnam
+* Cốc Cốc Browser, the [2nd most popular browser](http://gs.statcounter.com/browser-market-share/all/viet-nam) in Vietnam
+* QQ Browser for Windows, the [2nd most popular desktop browser](http://gs.statcounter.com/browser-market-share/desktop/china) in China
 
 ![Supported browsers table](./table.svg)
 

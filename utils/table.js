@@ -6,6 +6,7 @@ const d3 = require("d3");
 const input = {
   YaBrowser: require("../data/YaBrowser.json"),
   CocCoc: require("../data/coc_coc_browser.json"),
+  "QQBrowser-win": require("../data/QQBrowser-win.json"),
 };
 
 const svgo = new SVGO();
@@ -43,7 +44,7 @@ Object.entries(input).forEach(([browserName, data]) => {
   });
 });
 
-const width = 70;
+const width = 90;
 const height = 40;
 const gutter = 6;
 const headerHeight = 25;
