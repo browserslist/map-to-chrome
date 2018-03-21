@@ -1,8 +1,26 @@
 {
   "name": "map-to-chrome",
   "version": "0.0.1",
-  "description":
-    "Map versions of Chromium-based browsers to their equivalent Chrome versions",
+  "description": "Map versions of Chromium-based browsers to their equivalent Chrome versions",
   "repository": "github:dmfrancisco/map-to-chrome",
-  "license": "MIT"
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "d3": "^4.13.0",
+    "jsdom": "^11.6.2",
+    "svgo": "^1.0.5"
+  }
 }

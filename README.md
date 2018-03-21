@@ -34,6 +34,8 @@ The format is as follows:
 * Yandex Browser (or YaBrowser), a [popular browser](http://gs.statcounter.com/browser-market-share/all/russian-federation) in russian-speaking countries
 * Cốc Cốc Browser, a [popular browser](http://gs.statcounter.com/browser-market-share/all/viet-nam) in Vietnam
 
+![Supported browsers table](./table.svg)
+
 ## Contributing
 
 If you know more about any of these browsers or have a better way to achieve this,
