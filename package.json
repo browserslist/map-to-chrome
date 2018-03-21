@@ -21,6 +21,9 @@
   "devDependencies": {
     "d3": "^4.13.0",
     "jsdom": "^11.6.2",
+    "json-stringify-pretty-compact": "^1.1.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.sortby": "^4.7.0",
     "svgo": "^1.0.5"
   }
 }
