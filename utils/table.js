@@ -26,12 +26,18 @@ Object.entries(input).forEach(([browserName, data]) => {
     const chrome = versions[2];
     const browser = `${versions[0]}.${versions[1]}`;
 
-    output[chrome] = output[chrome] || {};
+    output[chrome] =
+      output[chrome] ||
+      Object.keys(input).reduce((el, key) => {
+        el[key] = null;
+        return el;
+      }, {});
+
     const entry = output[chrome];
 
     if (!entry[browserName]) {
       entry[browserName] = browser;
-    } else {
+    } else if (!entry[browserName].endsWith("+")) {
       entry[browserName] += "+";
     }
   });
@@ -84,6 +90,7 @@ Object.keys(output)
       .text(chrome);
 
     Object.values(output[chrome]).forEach((browser, index) => {
+      if (!browser) return;
       const x = (width + gutter) * (index + 1);
 
       graph
