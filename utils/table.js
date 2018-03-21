@@ -4,8 +4,8 @@ const fs = require("fs");
 const d3 = require("d3");
 
 const input = {
-  yabrowser: require("./browsers/yabrowser.json"),
-  coccoc: require("./browsers/coccoc.json"),
+  YaBrowser: require("../data/YaBrowser.json"),
+  CocCoc: require("../data/coc_coc_browser.json"),
 };
 
 const svgo = new SVGO();
@@ -48,7 +48,7 @@ graph
   .attr("y", headerHeight / 2)
   .attr("fill", "#6a737d")
   .attr("font-size", 13)
-  .text("chrome");
+  .text("Chrome");
 
 Object.keys(input).forEach((browser, index) => {
   const x = (width + gutter) * (index + 1);
