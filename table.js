@@ -16,7 +16,8 @@ const graph = d3
   .select(container)
   .append("svg")
   .attr("xmlns", "http://www.w3.org/2000/svg")
-  .attr("font-family", "sans-serif");
+  .attr("font-family", "sans-serif")
+  .attr("text-anchor", "middle");
 
 const output = {};
 
@@ -45,7 +46,6 @@ graph
   .append("text")
   .attr("x", width / 2)
   .attr("y", headerHeight / 2)
-  .attr("text-anchor", "middle")
   .attr("fill", "#6a737d")
   .attr("font-size", 13)
   .text("chrome");
@@ -57,7 +57,6 @@ Object.keys(input).forEach((browser, index) => {
     .append("text")
     .attr("x", x + width / 2)
     .attr("y", headerHeight / 2)
-    .attr("text-anchor", "middle")
     .attr("fill", "#6a737d")
     .attr("font-size", 13)
     .text(browser);
@@ -81,9 +80,7 @@ Object.keys(output)
     graph
       .append("text")
       .attr("x", width / 2)
-      .attr("y", y + height / 2 + 0.5)
-      .attr("text-anchor", "middle")
-      .attr("dominant-baseline", "central")
+      .attr("y", y + height / 2 + 5)
       .text(chrome);
 
     Object.values(output[chrome]).forEach((browser, index) => {
@@ -102,9 +99,7 @@ Object.keys(output)
       graph
         .append("text")
         .attr("x", x + width / 2)
-        .attr("y", y + height / 2 + 0.5)
-        .attr("text-anchor", "middle")
-        .attr("dominant-baseline", "central")
+        .attr("y", y + height / 2 + 5)
         .text(browser);
     });
   });
