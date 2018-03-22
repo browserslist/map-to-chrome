@@ -7,6 +7,7 @@ const input = {
   YaBrowser: require("../data/YaBrowser.json"),
   CocCoc: require("../data/coc_coc_browser.json"),
   "QQBrowser-win": require("../data/QQBrowser-win.json"),
+  Electron: require("../data/Electron.json"),
 };
 
 const svgo = new SVGO();

@@ -34,6 +34,7 @@ The format is as follows:
 * Yandex Browser (or YaBrowser), a [popular browser](http://gs.statcounter.com/browser-market-share/all/russian-federation) in russian-speaking countries
 * Cốc Cốc Browser, the [2nd most popular browser](http://gs.statcounter.com/browser-market-share/all/viet-nam) in Vietnam
 * QQ Browser for Windows, the [2nd most popular desktop browser](http://gs.statcounter.com/browser-market-share/desktop/china) in China
+* Electron, a framework to develop cross-platform desktop applications
 
 ![Supported browsers table](./table.svg)
 
@@ -50,4 +51,5 @@ Thank you in advance!
 
 The data for YaBrowser was initially extracted from [Browserslist-GA](https://github.com/dmfrancisco/browserslist-ga)
 and is based on this [pull request](https://github.com/dmfrancisco/browserslist-ga/pull/2)
-by [@Vasfed](https://github.com/Vasfed).
+by [@Vasfed](https://github.com/Vasfed).  
+Electron data was completed and confirmed thanks to the [electron-to-chromium](https://github.com/Kilian/electron-to-chromium) project.
