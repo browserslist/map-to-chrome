@@ -1,6 +1,6 @@
 {
   "name": "map-to-chrome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Map versions of Chromium-based browsers to their equivalent Chrome versions",
   "repository": "github:dmfrancisco/map-to-chrome",
   "license": "MIT",
